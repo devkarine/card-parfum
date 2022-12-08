@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: var(--cream);
+  font-family: "Fraunces", serif;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.container .img img {
+  height: 450px;
+  border-radius: 10px 0 0 10px;
+}
+
+.container .info {
+  background-color: var(--white);
+  height: 450px;
+  width: 300px;
+  border-radius: 0 10px 10px 0;
+  padding: 30px;
+}
+
+.container .info p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-grayish);
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+
+.container .info h1 {
+  font-weight: 700;
+  font-size: 33px;
+  padding-top: 16px;
+  line-height: 35px;
+}
+
+.container .info .description {
+  color: var(--dark-grayish);
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding-top: 22px;
+  line-height: 25px;
+}
+
+.container .info .price {
+  display: flex;
+  gap: 20px;
+  padding: 17px 0 30px 0;
+}
+
+.container .info .price .value-1 {
+  color: var(--dark);
+  font-size: 30px;
+}
+
+.container .info .price .value-2 {
+  display: flex;
+  align-items: center;
+  color: var(--dark-grayish);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.container .info .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--dark);
+  border-radius: 5px;
+  padding: 13px;
+}
+.container .info .btn a {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 500;
+}
+.container .info .btn:hover {
+  background-color: var(--very-dark);
+}

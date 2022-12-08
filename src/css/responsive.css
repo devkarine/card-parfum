@@ -1,0 +1,19 @@
+@media (max-width: 545px) {
+    .container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .container .img img {
+    height: 260px;
+    width: 300px;
+    
+    border-radius: 10px 10px 0 0px;
+  }
+  .container .info {
+    border-radius: 0  0 10px 10px;
+  
+  }
+}
+
